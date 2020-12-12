@@ -40,15 +40,9 @@ function App() {
       fetchCategoriesData();
     }
 
-  }, [eventsData, categoriesData]);
-
-  console.log("eventsData");
-  console.log(eventsData);
-  console.log("categoriesData");
-  console.log(categoriesData);
+  });
 
   function searchEvents(value) {
-    console.log(value);
     setSearchField(value);
   }
 
