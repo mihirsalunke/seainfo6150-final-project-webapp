@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+
+.container {
+    background: white;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    transition: transform .25s ease-out;
+}
+
+.container:hover {
+    transform: scale(1.25);
+}
+
+.container:active {
+    transform: scale(1.1);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+.title {
+    color: rgb(22, 28, 39);
+    font-family: "Nerko One", sans-serif;
+    font-size: 2em;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.date {
+    text-align: center;
+    color: orange;
+    font-family: Rowdies, sans-serif;
+}
+
+.location {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(22, 28, 39);
+}
+
+.location span {
+    font-family: Rowdies, sans-serif;
+}
+
+@media screen and (min-width: 525px) {
+    .container {
+      padding: 20px;
+    }
+    .title {
+      font-size: 1.5em;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    .container {
+      padding: 15px;
+    }
+    .title {
+      font-size: 1.5em;
+    }
+  }
+  
+  @media screen and (min-width: 1150px) {
+    .container {
+      padding: 10px;
+    }
+    .title {
+      font-size: 2.5em;
+    }
+  }
+

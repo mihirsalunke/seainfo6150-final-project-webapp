@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddEventButton tests renders correctly 1`] = `
+<div>
+  <div
+    class="addEventButton"
+  >
+    Add Event
+  </div>
+</div>
+`;

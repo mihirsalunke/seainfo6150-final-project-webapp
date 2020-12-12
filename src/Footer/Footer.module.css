@@ -1,0 +1,13 @@
+.footer{
+    padding-top: 3%;
+    text-align: center;
+    color:rgb(117, 104, 104);
+    background-image: linear-gradient(to right,rgb(154, 197, 223), rgb(106, 167, 206) 70%);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: smaller;
+}
+
+.margin{
+    border-top: 0.5px solid rgb(102, 18, 18);
+    padding-top:0.5%;
+}

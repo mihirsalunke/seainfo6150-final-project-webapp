@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventCategory tests renders correctly 1`] = `
+<div>
+  <div
+    class="category"
+  >
+    Sports
+  </div>
+</div>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryPage tests renders correctly 1`] = `
+<div>
+  <div>
+    <p>
+      Fetching 
+      Tech
+       Events
+    </p>
+    <div>
+      <img
+        alt="loading"
+        class="loading"
+        src="loading.gif"
+      />
+    </div>
+  </div>
+</div>
+`;

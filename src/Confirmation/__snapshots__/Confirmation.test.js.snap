@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Confirmation tests renders correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="confimationMessage"
+    >
+      <p>
+        Congratulations..!! 
+        <br />
+        You are registered for 
+        <b>
+          Future of AI
+        </b>
+      </p>
+    </div>
+    <div
+      class="eventDetails"
+    >
+      <div
+        class="title"
+      >
+        <p>
+          Event Details:
+        </p>
+      </div>
+      <div
+        class="datetime"
+      >
+        <p>
+          Event Date: 
+          <time
+            datetime="2020-12-24"
+          >
+            December 24th 2020
+          </time>
+        </p>
+        <p>
+          Event Time: 
+          <time
+            datetime="13:00"
+          >
+            1:00 pm
+          </time>
+        </p>
+      </div>
+      <div
+        class="location"
+      >
+        <p>
+          Event Location: 
+          <span>
+            Chicago
+          </span>
+        </p>
+      </div>
+    </div>
+    <div
+      class="participantDetails"
+    >
+      <div
+        class="title"
+      >
+        <p>
+          Participant's Details:
+        </p>
+      </div>
+      <div
+        class="text"
+      >
+        <p>
+          Participant Name: 
+          <span>
+            Mihir
+          </span>
+        </p>
+      </div>
+      <div
+        class="text"
+      >
+        <p>
+          Contact Number: 
+          <span>
+            123-456-7890
+          </span>
+        </p>
+      </div>
+      <div
+        class="text"
+      >
+        <p>
+          Email: 
+          <span>
+            abc@xyz.com
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+
+.registerButton {
+    background: orange;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    font-family: Rowdies, sans-serif;
+    font-size: 1.5em;
+    margin: 0 0 20px;
+    width: 5em;
+    text-align: center;
+    vertical-align: middle;
+
+    transition: transform .25s ease-out;
+}
+
+.registerButton:hover {
+    background: green;
+    transform: translateY(2px);
+    cursor: pointer;
+}
+
+.registerButton:active {
+    transform: translateY(1px);
+}

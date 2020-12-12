@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Footer component correctly 1`] = `
+<div>
+  <div
+    class="footer"
+  >
+    <div
+      class="margin"
+    >
+      <p>
+        Mihir Salunke
+      </p>
+      <p>
+        A Web Design Project, @Northeastern University, Seattle, WA, USA
+      </p>
+    </div>
+  </div>
+</div>
+`;

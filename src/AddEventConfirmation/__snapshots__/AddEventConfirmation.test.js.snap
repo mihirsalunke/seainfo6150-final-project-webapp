@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddEventConfirmation tests renders correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="confirmationMessage"
+    >
+      <p>
+        Thank You..!! 
+        <br />
+        Event 
+        <b>
+          Future of AI
+        </b>
+         successfully created
+      </p>
+    </div>
+    <div
+      class="eventDetails"
+    >
+      <div
+        class="title"
+      >
+        <p>
+          Event Details:
+        </p>
+      </div>
+      <div
+        class="text"
+      >
+        <p>
+          Event Name: 
+          <span>
+            Future of AI
+          </span>
+        </p>
+      </div>
+      <div
+        class="text"
+      >
+        <p>
+          Event Date: 
+          <span>
+            2020-12-24
+          </span>
+        </p>
+        <p>
+          Event Time: 
+          <span>
+            1:00 pm
+          </span>
+        </p>
+      </div>
+      <div
+        class="location"
+      >
+        <p>
+          Event Location: 
+          <span>
+            Chicago
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

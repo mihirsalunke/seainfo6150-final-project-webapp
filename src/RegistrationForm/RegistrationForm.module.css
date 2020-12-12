@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+
+.container {
+    background-image: linear-gradient(to right, rgb(160, 201, 226), rgb(207, 233, 248) 70%);
+    max-width: 700px;
+    margin: 2rem auto;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.eventDetailsContainer {
+    margin: 2em 5em;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    font-family: Rowdies, sans-serif;
+    font-size: 2em;
+}
+
+.text {
+    padding-left: 5%;
+    font-size: larger;
+}
+
+.text span {
+    font-family: "Nerko One", sans-serif;
+}
+
+.text time {
+    font-family: "Nerko One", sans-serif;
+}
+
+.registrationForm {
+    margin: 2em 5em;
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 100%;
+    color:  black;
+}
+
+.formField {
+    display: flex;
+    justify-content: space-evenly;
+}
+.formField label {
+    width: 40%;
+    text-align: right;
+}
+.formField input {
+    width: 40%;
+}
+
+.submitButton {
+    background: orange;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    font-family: Rowdies, sans-serif;
+    font-size: 1.5em;
+    margin: 0 0 20px;
+    width: 5em;
+    text-align: center;
+    vertical-align: middle;
+    align-self: center;
+    transition: transform .25s ease-out;
+}
+
+.submitButton:hover {
+    background: green;
+    transform: translateY(2px);
+    cursor: pointer;
+}
+
+.buttonContainer {
+    margin-top: 1em;
+    align-self: center;
+}
+
+.submitButton:active {
+    transform: translateY(1px);
+}

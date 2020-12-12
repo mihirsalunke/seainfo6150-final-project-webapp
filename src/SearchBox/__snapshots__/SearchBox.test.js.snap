@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox tests renders correctly 1`] = `
+<div>
+  <div
+    class="searchBox"
+  >
+    <input
+      class="searchText"
+      placeholder="search events..."
+      type="search"
+    />
+    <button
+      class="searchButton"
+    >
+      Search
+    </button>
+  </div>
+</div>
+`;

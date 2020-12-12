@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+
+.container {
+    background: white;
+    min-width: 700px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.confirmationMessage {
+    font-size: 2em;
+    margin: 2%;
+    color: rgb(33, 141, 6);
+    text-align: center;
+}
+
+.confimationMessage b {
+    font-family: Rowdies, sans-serif;
+}
+
+.eventDetails {
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 2%;
+}
+
+.title {
+    text-align: center;
+    font-family: Rowdies, sans-serif;
+}
+
+.text {
+    padding-left: 5%;
+}
+
+.text span {
+    font-family: "Nerko One", sans-serif;
+}
+
+.location {
+    padding-left: 5%;
+}
+
+.location span {
+    font-family: "Nerko One", sans-serif;
+}

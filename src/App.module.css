@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style-type: none;
+}
+
+html {
+    background: rgba(41, 39, 145, 0.8);
+}
+
+.home a{
+    background: orange;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: Rowdies, sans-serif;
+    margin: 0 0 20px;
+    width: 5em;
+    text-align: center;
+}
+
+.home a:hover {
+    background: darkgray;
+}
+
+.home a:active {
+    background: gray;
+}

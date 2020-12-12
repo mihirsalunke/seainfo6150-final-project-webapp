@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventCard tests renders correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="wrapper"
+    >
+      <img
+        alt="Future of AI"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9tSKBQBaTBTW3fMOh_8KPz5CqGeT6AeptUA&usqp=CAU"
+      />
+      <h2
+        class="title"
+      >
+        Future of AI
+      </h2>
+      <p
+        class="date"
+      >
+        <time
+          datetime="2020-12-24"
+        >
+          December 24th 2020
+        </time>
+      </p>
+      <p
+        class="location"
+      >
+        Location: 
+        <span>
+          Chicago
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+`;

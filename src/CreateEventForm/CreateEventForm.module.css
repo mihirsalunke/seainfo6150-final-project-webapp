@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+
+.container {
+    background-image: linear-gradient(to right, rgb(160, 201, 226), rgb(207, 233, 248) 70%);
+    max-width: 700px;
+    margin: 2rem auto;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    font-family: Rowdies, sans-serif;
+    font-size: 2em;
+}
+
+.createEventForm {
+    margin: 2em 5em;
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 100%;
+    color:  black;
+}
+
+.formField {
+    display: flex;
+    padding: 1%;
+}
+.formField label {
+    width: 50%;
+    margin-right: 2%;
+    text-align: right;
+    font-family: Rowdies, sans-serif;
+}
+.formField input {
+    width: 50%;
+    margin-left: 2%;
+}
+
+
+.formDropdown {
+    display: flex;
+    padding: 2%;
+    align-items: center;
+}
+.formDropdown label {
+    width: 50%;
+    margin-right: 2%;
+    text-align: right;
+    font-family: Rowdies, sans-serif;
+}
+.formDropdown select {
+    width: 50%;
+    margin-left: 2%;
+}
+
+.formRadio {
+    display: flex;
+    padding: 2%;
+    align-items: center;
+}
+.formRadio p {
+    font-family: Rowdies, sans-serif;
+}
+.radio {
+    display: flex;
+}
+
+.checkbox {
+    padding: 1%;
+}
+
+.buttonContainer {
+    margin-top: 1em;
+    align-self: center;
+}
+
+.submitButton {
+    background: orange;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: Rowdies, sans-serif;
+    margin: 0 0 20px;
+    width: 7em;
+    text-align: center;
+    vertical-align: middle;
+
+    transition: transform .25s ease-out;
+}
+
+.submitButton:hover {
+    background: green;
+    transform: translateY(2px);
+    cursor: pointer;
+}
+
+.submitButton:active {
+    transform: translateY(1px);
+}

@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    color: rgb(53, 23, 23);
+    background-color:rgb(131, 64, 64);
+}
+.main {
+    padding-top: 5%;
+}
+
+.container h2 {
+    padding: 1%;
+    font-size: 1500%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.container h4 {
+    font-size: 200%;
+    padding: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.container a{  
+    border: 2px solid rgb(153, 127, 127);
+    text-decoration: none;
+    background : rgba(204, 0, 0, 0.5);
+    color: #fff;
+    padding :12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.container a:hover{
+    background:rgb(83, 18, 18);
+    font-family: 'Space Grotesk', sans-serif;
+}

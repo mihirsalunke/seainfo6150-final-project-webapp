@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+
+.addEventButton {
+    background: orange;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    font-family: Rowdies, sans-serif;
+    font-size: 1.5em;
+    margin: 0 0 20px;
+    width: 5em;
+    text-align: center;
+}
+
+.addEventButton:hover {
+    /* transform: translateY(2px); */
+    background: green;
+}
+
+.addEventButton:active {
+    /* transform: translateY(2px); */
+    background: gray;
+}

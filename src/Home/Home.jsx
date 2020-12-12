@@ -1,16 +1,22 @@
 import React from 'react'
-import Form from "../Form/Form";
-import treefrog from "../images/treefrog.jpg";
+import EventList from "../EventList/EventList.jsx";
+import EventCategoryList from "../EventCategoryList/EventCategoryList.jsx";
+import PropTypes from "prop-types";
 
-const Home = () => {
+const Home = ({ events, categories }) => {
+
     return (
         <div>
-            The home page
-            <h1>I changed this homepage</h1>
-            <img src={treefrog} alt="tree frog" />
-            <Form />
+            <EventCategoryList categories={categories}/>
+            <EventList events={events} />
+            {/* <Footer /> */}
         </div>
-    )
-}
+    );
+};
 
-export default Home
+Home.propTypes = {
+    events: PropTypes.array.isRequired,
+    categories: PropTypes.array.isRequired,
+};
+
+export default Home;
