@@ -40,7 +40,7 @@ function App() {
       fetchCategoriesData();
     }
 
-  });
+  }, [eventsData, categoriesData]);
 
   function searchEvents(value) {
     setSearchField(value);
