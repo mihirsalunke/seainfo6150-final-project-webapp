@@ -23,8 +23,7 @@ const EventList = (props) => {
             </ul>
         );
     } else {
-        displayContent = <div>Fetching Events</div>;
-        // <img className="loading" src={Loading} alt="loading" />
+        displayContent = <div><img className="loading" src={Loading} alt="loading" /></div>;
     }
 
     return (
